@@ -24,5 +24,50 @@ namespace GuiClientWPF
         {
             InitializeComponent();
         }
+
+        private void ExitAction_Click(object sender, RoutedEventArgs e)
+        {
+            System.Environment.Exit(0);
+        }
+
+        private void DisconnectAction_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ConnectAction_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void SaveAction_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void RunAction_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ConnectionOptions_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void PreferencesOptions_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void HelpControls_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void HelpUI_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
