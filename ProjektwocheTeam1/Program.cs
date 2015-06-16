@@ -12,6 +12,11 @@ namespace ProjektwocheTeam1
         {
             Console.Write("Test");
             Console.WriteLine("dsaf");
+
+            while (true)
+            {
+
+            }
         }
     }
 }
