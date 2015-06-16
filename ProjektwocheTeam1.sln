@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjektwocheTeam1", "ProjektwocheTeam1\ProjektwocheTeam1.csproj", "{6D902F8F-DCD3-46DC-A197-42A5DF7DEEC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuiClientWPF", "GuiClientWPF\GuiClientWPF.csproj", "{7AAD5B66-2C09-4F1E-9042-BBFFF989ADAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6D902F8F-DCD3-46DC-A197-42A5DF7DEEC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D902F8F-DCD3-46DC-A197-42A5DF7DEEC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D902F8F-DCD3-46DC-A197-42A5DF7DEEC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AAD5B66-2C09-4F1E-9042-BBFFF989ADAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AAD5B66-2C09-4F1E-9042-BBFFF989ADAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AAD5B66-2C09-4F1E-9042-BBFFF989ADAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AAD5B66-2C09-4F1E-9042-BBFFF989ADAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
