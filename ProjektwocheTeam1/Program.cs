@@ -13,6 +13,8 @@ namespace ProjektwocheTeam1
             Console.Write("Hello World!");
 
             Console.Write("Markus mach endlich nen join!");
+
+            Console.Write("Test");
         }
     }
 }
