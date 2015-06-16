@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjektwocheTeam1", "ProjektwocheTeam1\ProjektwocheTeam1.csproj", "{6D902F8F-DCD3-46DC-A197-42A5DF7DEEC2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuiClientConsole", "ProjektwocheTeam1\GuiClientConsole.csproj", "{6D902F8F-DCD3-46DC-A197-42A5DF7DEEC2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuiClientWPF", "GuiClientWPF\GuiClientWPF.csproj", "{7AAD5B66-2C09-4F1E-9042-BBFFF989ADAD}"
 EndProject

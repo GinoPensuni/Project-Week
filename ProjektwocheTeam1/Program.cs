@@ -10,13 +10,7 @@ namespace ProjektwocheTeam1
     {
         static void Main(string[] args)
         {
-            Console.Write("Test");
-            Console.WriteLine("dsaf");
-
-            while (true)
-            {
-
-            }
+           
         }
     }
 }
