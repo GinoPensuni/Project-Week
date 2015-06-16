@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjektwocheTeam1
+namespace CommonInterfaces
 {
-    class GuiRenderer
+    enum MessageType
     {
+        RequestForComponentExecution = 1
     }
 }
