@@ -8,5 +8,10 @@ namespace CommonInterfaces
 {
     public interface ILogic
     {
+        bool DisconnectFromServer();
+
+        void SaveComponent(IComponent component);
+
+        void ConnenctToServer();
     }
 }

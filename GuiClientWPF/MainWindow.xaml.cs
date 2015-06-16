@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using GuiClientWPF.Assets.Windows;
 
 namespace GuiClientWPF
 {
@@ -20,8 +21,13 @@ namespace GuiClientWPF
     /// </summary>
     public partial class MainWindow : Window
     {
+        private ClientManager manager;
+        private HelpWindowUI uihelper;
+        private HelpWindowControl controlhelper;
+
         public MainWindow()
         {
+            this.manager = new ClientManager();
             InitializeComponent();
         }
 
@@ -30,19 +36,19 @@ namespace GuiClientWPF
             System.Environment.Exit(0);
         }
 
-        private void DisconnectAction_Click(object sender, RoutedEventArgs e)
+        private async void DisconnectAction_Click(object sender, RoutedEventArgs e)
         {
-
+            await manager.Disconnect();
         }
 
-        private void ConnectAction_Click(object sender, RoutedEventArgs e)
+        private async void ConnectAction_Click(object sender, RoutedEventArgs e)
         {
-
+            await manager.ConnectAction();
         }
 
-        private void SaveAction_Click(object sender, RoutedEventArgs e)
+        private async void SaveAction_Click(object sender, RoutedEventArgs e)
         {
-
+            await manager.SaveComponent(this.Workstation);
         }
 
         private void RunAction_Click(object sender, RoutedEventArgs e)
@@ -62,12 +68,14 @@ namespace GuiClientWPF
 
         private void HelpControls_Click(object sender, RoutedEventArgs e)
         {
-
+            controlhelper = new HelpWindowControl();
+            controlhelper.Visibility = Visibility.Visible;
         }
 
         private void HelpUI_Click(object sender, RoutedEventArgs e)
         {
-
+            uihelper = new HelpWindowUI();
+            uihelper.Visibility = Visibility.Visible;
         }
     }
 }
