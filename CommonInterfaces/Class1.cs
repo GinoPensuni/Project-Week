@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CommonInterfaces
 {
-    public class Class1
+    public interface ILogic
     {
     }
 }
