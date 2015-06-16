@@ -10,11 +10,6 @@ namespace ProjektwocheTeam1
     {
         static void Main(string[] args)
         {
-            Console.Write("Hello World!");
-
-            Console.Write("Markus mach endlich nen join!");
-
-            Console.Write("Test");
         }
     }
 }
